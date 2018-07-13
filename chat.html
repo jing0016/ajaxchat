@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <title>AJAX Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <style>
+        .bubble-recv
+        {
 
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">AJAX Chat</h1>
+
+    <div class="container">
+
+        <div class="panel panel-default">
+
+            <div class="panel-heading">
+                <h2 class="panel-title">Let's Chat</h2>
+            </div>
+
+            <div class="panel-body" id="chatPanel">
+            </div>
+
+            <div class="panel-footer">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="chatMessage" placeholder="Send a message here..."/>
+                    <span class="input-group-btn">
+                        <button id="sendMessageBtn" class="btn btn-primary has-spinner" type="button">
+                            <span class="spinner"><i class="icon-spin icon-refresh"></i></span>
+                            Send
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="client.js"></script>
 </body>
 </html>
