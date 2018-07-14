@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ajaxchat.iml" filepath="$PROJECT_DIR$/.idea/ajaxchat.iml" />
+      <module fileurl="file:///Applications/MAMP/htdocs/.idea/htdocs.iml" filepath="/Applications/MAMP/htdocs/.idea/htdocs.iml" />
     </modules>
   </component>
 </project>
